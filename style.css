@@ -1,0 +1,84 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+:root {
+    --light-neutral : #2080da;
+    --neutral: #1864ab;
+    --correct: #2f9e44;
+    --wrong: #e03131;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--neutral);
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+body.correct {
+    background-color: var(--correct);
+}
+
+body.wrong {
+    background-color: var(--wrong);
+}
+
+main {
+    width: 800px;
+    max-width: 80%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+}
+#answer-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+}
+.btn {
+    padding: 5px 10px;
+    border: 2px solid var(--neutral);
+    border-radius: 5px;
+    background-color: var(--light-neutral);
+    color: white;
+}
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+.btn:hover {
+    border-color: black;
+}
+.btn.correct {
+    background-color: var(--correct);
+}
+.btn.wrong {
+    background-color: var(--wrong);
+}
+.start-btn, .next-btn {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+#controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hide {
+    display: none;
+}
