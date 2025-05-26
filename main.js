@@ -81,7 +81,89 @@ const questions = [
             { texte: '16e en France ', correcte: false }
         ]
     },
-]
+      {
+        "enonce": "Quel est le taux de réussite moyen des étudiants en IUT en France ?",
+        "reponses": [
+            { "texte": "69.1%", "correcte": true },
+            { "texte": "75.5%", "correcte": false },
+            { "texte": "80.2%", "correcte": false },
+            { "texte": "85.3%", "correcte": false }
+        ]
+      },
+      {
+        "enonce": "Quelle université a l'IUT avec le meilleur taux de réussite en France ?",
+        "reponses": [
+            { "texte": "Université Bordeaux-Montaigne", "correcte": true },
+            { "texte": "Université d'Angers", "correcte": false },
+            { "texte": "Université Lumière Lyon 2", "correcte": false },
+            { "texte": "Université de Paris", "correcte": false }
+        ]
+      },
+      {
+        "enonce": "Quelle spécialité en IUT a le meilleur taux de réussite national ?",
+        "reponses": [
+            { "texte": "Information communication", "correcte": true },
+            { "texte": "Packaging, emballage et conditionnement", "correcte": false },
+            { "texte": "Métiers du multimédia et de l'Internet", "correcte": false },
+            { "texte": "Génie chimique - génie des procédés", "correcte": false }
+        ]
+      },
+      {
+        "enonce": "Quel est l'indicateur utilisé pour mesurer la capacité d'un IUT à faire progresser ses étudiants ?",
+        "reponses": [
+            { "texte": "Valeur ajoutée", "correcte": true },
+            { "texte": "Taux de réussite", "correcte": false },
+            { "texte": "Effectif des étudiants", "correcte": false },
+            { "texte": "Taux d'insertion professionnelle", "correcte": false }
+        ]
+      },
+      {
+        "enonce": "Quelle est la spécialité en IUT avec le taux de réussite le plus faible ?",
+        "reponses": [
+            { "texte": "Génie chimique - génie des procédés", "correcte": true },
+            { "texte": "Information communication", "correcte": false },
+            { "texte": "Packaging, emballage et conditionnement", "correcte": false },
+            { "texte": "Métiers du multimédia et de l'Internet", "correcte": false }
+        ]
+      },
+      {
+        "enonce": "Quel est le pourcentage d'étudiants ayant besoin d'une année supplémentaire pour obtenir leur diplôme en IUT ?",
+        "reponses": [
+            { "texte": "9.3%", "correcte": true },
+            { "texte": "12.5%", "correcte": false },
+            { "texte": "15.7%", "correcte": false },
+            { "texte": "18.9%", "correcte": false }
+        ]
+      },
+      {
+        "enonce": "Quel IUT a la plus forte valeur ajoutée selon le classement 2022 ?",
+        "reponses": [
+            { "texte": "Université Lumière Lyon 2", "correcte": true },
+            { "texte": "Université d'Angers", "correcte": false },
+            { "texte": "Université Bordeaux-Montaigne", "correcte": false },
+            { "texte": "Le Mans Université", "correcte": false }
+        ]
+      },
+      {
+        "enonce": "Quel est le taux de réussite en deux ans de l'IUT de l'Université d'Angers ?",
+        "reponses": [
+            { "texte": "83.8%", "correcte": true },
+            { "texte": "78.5%", "correcte": false },
+            { "texte": "80.2%", "correcte": false },
+            { "texte": "77.5%", "correcte": false }
+        ]
+      },
+      {
+        "enonce": "Quel est le taux de réussite en deux ans de l'IUT de l'Université de Paris ?",
+        "reponses": [
+            { "texte": "78.5%", "correcte": true },
+            { "texte": "83.8%", "correcte": false },
+            { "texte": "80.2%", "correcte": false },
+            { "texte": "77.5%", "correcte": false }
+        ]
+      }
+    ]
+
 
 
 // Mes fonctions
